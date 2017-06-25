@@ -104,14 +104,17 @@ body {
 /* выравнивание в container left & right */
 .container-left {
 	display: inline-block;
-	vertical-align: middle;
+	// vertical-align: middle;
 }
 .container-left a{
-	
+	display: block;
 }
 .container-right {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	
 }
-
+.container-right a {
+	display: block;
+	margin-bottom: 3px;
+}
