@@ -94,38 +94,24 @@ body {
 	height: 60.25rem;
 	position: relative;	
 }
-.categories-container {
-	background-color: black;
 
-	
-}
-.categories-container {
+
+.sky-container {
 	
 	background-color: red;
-	vertical-align: center;
+	
 }
-/* выравнивание в color-sku */
+/* выравнивание в container left & right */
 .container-left {
 	display: inline-block;
-	vertical-align: center;
-	background-color: blue;
-
-
+	vertical-align: middle;
+}
+.container-left a{
+	
 }
 .container-right {
 	display: inline-block;
-	background-color: #aeaeae;
-	vertical-align: top;
+	vertical-align: middle;
+	
+}
 
-}
-.container-right-1 {
-	// vertical-align: top;
-	display: inline-block;
-	
-	
-}
-.container-right-2 {
-	display: inline;
-	vertical-align: top;
-	
-}
